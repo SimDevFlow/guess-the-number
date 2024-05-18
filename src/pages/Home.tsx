@@ -19,7 +19,9 @@ export default function Home() {
         <Link to={"/difficulty"}>
           <HomeButton message="Difficulté" iconUrl={setting} />
         </Link>
-        <HomeButton message="Classement" iconUrl={user} />
+        <Link to={"/classement"}>
+          <HomeButton message="Classement" iconUrl={user} />
+        </Link>
       </div>
     </div>
   );
